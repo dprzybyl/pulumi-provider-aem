@@ -1,9 +1,9 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi AEM Resource Provider
 
-PACK             := xyz
+PACK             := aem
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @pulumi/xyz
+PROJECT          := github.com/pulumi/pulumi-aem
+NODE_MODULE_NAME := @pulumi/aem
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

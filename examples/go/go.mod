@@ -1,4 +1,4 @@
-module provider-xyz-native
+module provider-aem-native
 
 go 1.20
 
