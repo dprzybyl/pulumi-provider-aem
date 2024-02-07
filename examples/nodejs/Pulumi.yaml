@@ -1,6 +1,6 @@
-name: provider-xyz-native
+name: provider-aem-native
 runtime: nodejs
 plugins:
   providers:
-    - name: xyz
+    - name: aem
       path: ../../bin
