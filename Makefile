@@ -33,8 +33,8 @@ test_provider::
 go_sdk:: $(WORKING_DIR)/bin/$(PROVIDER)
 	rm -rf sdk/go
 	pulumi package gen-sdk $(WORKING_DIR)/bin/$(PROVIDER) --language go
-	sed -i '' -e 's/"internal"/"github.com\/dprzybyl\/pulumi-dsa\/sdk\/go\/dsa\/internal"/g' sdk/go/$(PACK)/*.go
-	sed -i '' -e 's/\/pulumi-dsa\/sdk/\/pulumi-dsa\/sdk/g' sdk/go/$(PACK)/internal/*.go
+	sed -i '' -e 's/"internal"/"github.com\/dprzybyl\/pulumi-provider-aem\/sdk\/go\/aem\/internal"/g' sdk/go/$(PACK)/*.go
+	sed -i '' -e 's/\/pulumi-aem\/sdk/\/pulumi-provider-aem\/sdk/g' sdk/go/$(PACK)/internal/*.go
 
 nodejs_sdk:: VERSION := $(shell pulumictl get version --language javascript)
 nodejs_sdk::
