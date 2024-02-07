@@ -1,4 +1,4 @@
-module https://github.com/dprzybyl/pulumi-provider-aem/examples
+module github.com/dprzybyl/pulumi-provider-aem/examples
 
 go 1.20
 
