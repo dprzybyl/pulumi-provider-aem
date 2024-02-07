@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-aem/provider
+module github.com/dprzybyl/pulumi-provider-aem/provider
 
 go 1.21
 

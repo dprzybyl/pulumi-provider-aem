@@ -2,7 +2,7 @@ PROJECT_NAME := Pulumi AEM Resource Provider
 
 PACK             := aem
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-aem
+PROJECT          := github.com/dprzybyl/pulumi-provider-aem
 NODE_MODULE_NAME := @pulumi/aem
 
 PROVIDER        := pulumi-resource-${PACK}

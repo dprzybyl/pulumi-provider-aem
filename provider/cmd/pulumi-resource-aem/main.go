@@ -17,7 +17,7 @@ package main
 import (
 	p "github.com/pulumi/pulumi-go-provider"
 
-	aem "github.com/pulumi/pulumi-aem/provider"
+	aem "github.com/dprzybyl/pulumi-provider-aem/provider"
 )
 
 // Serve the provider against Pulumi's Provider protocol.

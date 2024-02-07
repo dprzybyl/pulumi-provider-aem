@@ -1,4 +1,4 @@
-module provider-aem-native
+module https://github.com/dprzybyl/pulumi-provider-aem/examples
 
 go 1.20
 
