@@ -13,7 +13,7 @@ func main() {
 		if err != nil {
 			return err
 		}
-		ctx.Export("output", map[string]interface{}{
+		ctx.Export("output", pulumi.StringMap{
 			"value": myRandomResource.Result,
 		})
 		return nil
